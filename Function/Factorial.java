@@ -25,3 +25,7 @@ public class Factorial {
     }
 
 }
+
+
+/*  Enter the number for find factorial:66
+Factorial of 66 is : 0*/
