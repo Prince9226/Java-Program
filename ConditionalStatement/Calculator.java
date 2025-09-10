@@ -5,7 +5,7 @@
 4 : / (Division) a / b
 5 : % (Modulo or remainder) a % b
 Calculate the result according to the operation given and display it to the user.
- */
+*/
 
 import java.util.*;
 public class Calculator {
@@ -22,7 +22,7 @@ public class Calculator {
         int Subtraction=a-b;
         int Multiplication=a*b;
         int Division=a/b;
-        int Module=a%b;
+        int Modulo=a%b;
 
         switch(num){
             case 1:
@@ -38,7 +38,7 @@ public class Calculator {
                 System.out.println("Division of "+a + " and " +b+" is: " +Division);
                 break;
             case 5:
-                System.out.println("Remainder of "+a + " and " +b+" is: " +Module);
+                System.out.println("Remainder of "+a + " and " +b+" is: " +Modulo);
                 break;
             default :
                 System.out.println("Invalid Number");
