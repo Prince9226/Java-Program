@@ -17,6 +17,7 @@ public class Table{
         int n =sc.nextInt();
 
         multitable(n);
+        sc.close();
         
     }
 }
