@@ -15,5 +15,6 @@ public class Eligible {
 
         //int eligibleforvote=eligible(age);
         System.out.println(iseligible(age));
+        sc.close();
     }
 }
