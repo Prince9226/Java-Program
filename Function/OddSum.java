@@ -22,6 +22,7 @@ public class OddSum {
         // output
 
         System.out.println("The sum of all odd numbers up to " + num + " is: " + totalSum);
+        sc.close();
     }
 
 }

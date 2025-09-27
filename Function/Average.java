@@ -20,6 +20,7 @@ public class Average {
         String formattedAverage = String.format("%.2f", average);
 
         System.out.println("Average of three number is:"+formattedAverage);
+        sc.close();
 
     }
     

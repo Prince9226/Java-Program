@@ -15,5 +15,6 @@ public class MultiplyTwoNumber {
 
         int multiply=calculateMultiply(a, b);
         System.out.print("Total Multiplication here :" +multiply);
+        sc.close();
     }
 }

@@ -14,5 +14,8 @@ public class AddTwoNumber {
         
         int sum=calculateSum(a, b);
         System.out.print("Sum of a and b is:" +sum);
+        sc.close();
+
+        
     }
 }

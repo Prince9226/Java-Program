@@ -21,6 +21,7 @@ public class Factorial {
         int factorial = printFactorial(num);
         if(factorial != -1){
             System.out.println("Factorial of "+ num +" is : " + factorial);
+            sc.close();
         }
     }
 
